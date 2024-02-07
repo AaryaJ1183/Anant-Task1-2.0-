@@ -1,0 +1,586 @@
+*
+{
+    margin:0;
+    padding:0;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body
+{
+    background-color: rgb(32,33,36);
+}
+
+.navbar
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(32,33,36);
+    height: 80px;
+    
+}
+
+#logo
+{   
+    color: #FEFEFF;
+    position: absolute;
+    left:4.75vw;
+}
+.nav-options-2
+{   
+    position: absolute;
+    right:5vw;
+}
+.nav-options
+{
+    color: #FEFEFF;
+    margin: 0 40px 0 40px;
+}
+
+.hero-page
+{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.hero-margin
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FEFEFF;
+
+    position: absolute;
+    left:6vw;
+    
+}
+.line
+{
+    height: 250px;
+    width: 1px;
+    background-color: #FEFEFF;
+    margin: 10px 0 10px 0;
+    /* position: absolute;
+    left:9.6vw; */
+}
+.brands
+{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.fa-brands
+{   
+    font-size: 20px;
+    margin: 1.5vh 0 1.5vh 0;
+    position: relative;
+    right:10px;
+}
+.hero-img
+{   
+    display: grid;
+    grid-template-columns: repeat(15,100px);
+    grid-template-rows: repeat(7,100px);
+}
+.hero-text
+{
+    grid-column:3/3 ;
+    grid-row: 3/3;
+
+    display: grid;
+    grid-template-columns: repeat(15,50px);
+    grid-template-rows: repeat(14,25px);
+}
+.hello-im
+{
+    color:white;
+    font-size: 32px;
+    width:200px;
+
+    grid-column:2/2 ;
+    grid-row: 1/1;
+}
+.name
+{
+    color: #FFA588;
+    font-size: 88px;
+    width:600px;
+
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.name-sbtxt
+{
+    color:#FFFFFFB2;
+    font-size: 24px;
+    width:500px;
+
+    grid-column:2/2 ;
+    grid-row: 7/7;
+}
+.hero-btn
+{
+    width: 222px;
+    height:58.1px;
+    font-size: 24px;
+    border-radius: 1vh;
+
+    grid-row: 10/10;
+}
+.hire-me
+{
+    background-color: #FFA588;
+    color: #202124;
+    border: none;
+    
+    grid-column: 2/2;
+}
+.know-more
+{
+    color: #FFA588;
+    border: 3px solid #FFA588;
+    background-color:#202124;
+    position: relative;
+    right:20px;
+
+    grid-column: 7/7;
+}
+.hackerbro
+{
+    grid-column: 10/10 ;
+    grid-row: 2/2;
+}
+
+
+/* Section-2 */
+.section-aboutme
+{
+    display: grid;
+    grid-template-columns: repeat(20,75px);
+    grid-template-rows: repeat(10,75px);
+    justify-content: center;
+    align-items: center;
+}
+.aboutme-img
+{
+    width: 450px;
+    /* position: relative;
+    left:100px;
+    top:100px; */
+    grid-column: 3/3;
+    grid-row: 5/5;
+    
+    
+}
+.section-2-text
+{   
+    width:700px;
+    grid-column: 10/10;
+    grid-row: 4/4;
+
+}
+.about-me-text
+{   
+    color: #FFA588;
+    font-size: 48px;
+
+    position: relative;
+    top:60px;
+    margin-bottom: 70px;
+}
+.lorem
+{
+    color: #FEFEFF;
+    font-size: 23px;
+    margin-top: 30px;
+}
+.follow
+{
+    position: relative;
+    top:30px;
+}
+.about-me-brands
+{
+    color: #FFA588;
+
+    position: relative;
+    right:12px;
+    top:65px;
+}
+.abt
+{
+    font-size: 25px;
+    margin: 10px 25px 10px 25px;
+}
+
+/* section 3 */
+.section-3
+{
+    margin-top: 200px;
+}
+.boxes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.services
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.serv-off
+{
+    color: #FFA588;
+    font-size: 50px;
+}
+.serv-underline
+{   
+    width: 200px;
+    height: 4px;
+    background-color: #FFA588;
+    margin-bottom: 80px;
+    border-radius: 400rem;
+}
+.border3
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 3.25px solid #FFA588;
+    padding:4rem;
+    width:230px;
+    height:210px;
+    border-radius: 4px;
+
+    margin: 20px 40px 20px 30px;
+}
+.box2-3
+{
+    width: 850px;
+    height: auto;
+}
+.marketing
+{
+    display: none;
+}
+.fa-paintbrush
+{
+    color: #FFA588;
+    font-size: 70px;
+}
+.box-txt1
+{   
+    text-align: center;
+
+    color: #FFA588;
+    font-size: 25px;
+    width: 300px;
+    margin:40px;
+}
+.box-txt2
+{
+    color: white;
+}
+
+/* ---------------------------- */
+/* Section-4 */
+
+
+.section-4
+{
+    margin-top: 250px;
+}
+.sect4-options
+{   
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 100px;
+
+    position: relative;
+    right:30px;
+}
+.my-projects
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projects-txt
+{
+    color: #FFA588;
+    font-size: 50px;
+}
+.proj-underline1
+{
+    width:200px;
+    height:4px;
+    background-color: #FFA588;
+    border-radius: 400rem;
+}
+.proj-underline2
+{
+    width: 230px;
+    height: 6px;
+    background-color: #FFA588;
+    margin-top: 10px;
+}
+.proj-graph-des-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-4-img
+{   
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect-4-png
+{
+    width: 1100px;
+    height: auto;
+
+}
+/* BRUH TRY USING JUSTIFY CONTENT SPACE EVENLY  */
+
+/* ------------------------ */
+/* section-5 */
+.section-5
+{
+    margin-top: 250px;
+}
+.clients-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what-clients
+{
+    font-size: 50px;
+    color: #FFA588;
+}
+.clients-underline1
+{
+    width:200px;
+    height: 4px;
+    background-color: #FFA588;
+}
+
+
+.clients-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    margin-top: 100px;
+}
+
+.arrows-img
+{
+    width: 1200px;
+}
+
+.clients-said
+{   
+    color: white;
+    font-size: 20px;
+
+    position: relative;
+    bottom:220px;
+    left:200px;
+    width: 500px;
+
+}
+.client-name
+{
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    bottom:175px;
+    left:125px;
+}
+.clients-underline2
+{   
+    width:200px;
+    height: 4px;
+    background-color: #FFA588;
+    border-radius: 400rem;
+    margin-right: 20px;
+    /* tempo */
+
+}
+.persona
+{   
+    color: #FFA588;
+    font-size: 27px;
+}
+
+
+/* -------------------------- */
+/* Section-6 */
+.section-6
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-heading
+{
+    font-size: 50px;
+    color: #FFA588;
+}
+.contact-underline1
+{
+    height: 4px;
+    width:200px;
+    background-color: #FFA588;
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    position: relative;
+    right:50px;
+}
+.details-input
+{
+    padding:20px;
+    border: 2px solid #FFA588;
+    background-color: #202124;
+    color: #FFA588;
+    margin:20px 0 20px 0;
+    width:530px;
+    height: 50px;
+    border-radius: 5px;
+}
+.inp3
+{
+    height:100px;
+}
+.details-input::placeholder
+{   
+    color: #FFA588;
+    opacity: 0.9;
+    font-size: 20px;
+}
+.submit-contact
+{
+    width:100%;
+    background-color: #FFA588;
+    color: black;
+    border:none;
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+    border-radius: 4px;
+}
+
+
+.t1
+{
+    font-size: 25px;
+    color: #FFA588;
+    margin-bottom: 10px;
+}
+.t2
+{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.contact-margin
+{
+    height: 375px;
+    width: 2px;
+    background-color: #ffa6886a;
+
+    position: relative;
+    top:170px;
+    left:10px;
+}
+.contact-components
+{
+    display: flex;
+}
+
+.myDetails
+{
+    position: relative;
+    left:80px;
+    top:140px;
+}
+.media-brands
+{   
+    color: white;
+    position: relative;
+    right:10px;
+    top:15px;
+}
+.m-b
+{   
+    font-size: 30px;
+    margin:0 20px 0 20px;
+}
+
+
+
+/* ------------------------------ */
+/* Footer */
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41,42,46);
+    margin-top: 100px;
+    width:100%;
+    height:200px;
+    position:relative;
+    bottom:0;
+}
+
+.created
+{   
+    color: white;
+    position: relative;
+    right:300px;
+    font-size: 30px;
+}
+.f-b 
+{
+    position: relative;
+    bottom:10px;
+    left:250px;
+    font-size: 35px;
+}
